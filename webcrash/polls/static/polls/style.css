@@ -1,0 +1,12 @@
+body {
+    background-color: gray;
+}
+
+li a, a{
+    color: black;
+}
+li a:hover, a:hover{
+    color: blue;
+    font-size: 20px;
+}
+
