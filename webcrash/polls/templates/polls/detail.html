@@ -21,7 +21,11 @@
                 {% endfor %}
 
         </fieldset>
-        <a href="../">Vote again?</a>
+        {% if error_message %}
+            <a href="../../">Go Back?</a>
+        {% else %}
+            <a href="../">Go Back?</a>
+        {% endif %}
         <input type="submit" value="Vote">
     </form>
 </body>
