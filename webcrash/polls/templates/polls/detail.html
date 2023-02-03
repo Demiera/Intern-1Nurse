@@ -14,7 +14,7 @@
                 {% endfor %}
 
         </fieldset>
-        <a href="/polls">Go Back?</a>
+        <a href="{% url 'polls:index' %}">Go Back?</a>
         <input type="submit" value="Vote">
     </form>
 {% endblock content%}
